@@ -3,31 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to HymenopteraMine_v1.4's documentation!
-================================================
+HymenopteraMine v1.4 Documentation
+==================================
 
-HymenopteraMine is an integrative resource for genomic data on Hymenoptera, including honeybees, ants, wasps, etc.
+HymenopteraMine is an integrative resource for genomic data on Hymenoptera, including honeybees, ants, wasps, etc. Powered by `InterMine <http://intermine.org>`_, it provides a user-friendly way to access genomic, proteomic, interaction and literature data. HymenopteraMine is a part of the `Hymenoptera Genome Database <http://www.hymenopteragenome.org>`_.
 
-Link to main site: http://hymenopteragenome.org/hymenopteramine
+This tutorial is aimed at giving users an introduction to the different parts of HymenopteraMine and how users can make the most of HymenopteraMine.
 
-Link to HGD YouTube Channel with HymenopteraMine Videos: https://www.youtube.com/channel/UC1NVFd9buEtlbA2mcdq0MXQ
+.. image:: images/header.png
 
-Link to PDF version of this documentation: https://media.readthedocs.org/pdf/hymenopteramine/stable/hymenopteramine.pdf
+Main site: http://hymenopteragenome.org/hymenopteramine
 
-Link to the available datasets in HymenopteraMine: http://hymenopteragenome.org/hymenopteramine/dataCategories.do
+HGD YouTube Channel with HymenopteraMine Videos: https://www.youtube.com/channel/UC1NVFd9buEtlbA2mcdq0MXQ
+
+List of available datasets in HymenopteraMine: http://hymenopteragenome.org/hymenopteramine/dataCategories.do
 
 .. toctree::
-   :maxdepth: 2
+   :caption: Table of Contents
+   :maxdepth: 4
+   :hidden:
    
-   hymenopteramine
-
-
-Click `here <http://www.screencast.com/users/intermine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b>`_ for a video tutorial, created by FlyMine, which highlights the features of InterMine.
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   overview
+   searching
+   reports
+   lists
+   api
+   data_sources
+   blast
+   how_to_cite
