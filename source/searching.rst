@@ -91,7 +91,7 @@ As an example, the **GO Term --> Gene** template queries HymenopteraMine for all
 
   ..
 
-The result page shows all the genes having the Gene Ontology term "DNA Binding" in their annotation. When logged in, users may create a new list or add these genes to an existing list to perform further analyses. Click on the **Save as List** button above the table of results, then choose the column to add to the list. See the :ref:`lists` section for more details on creating and saving lists.
+The results page shows all the genes having the Gene Ontology term "DNA Binding" in their annotation. When logged in, users may create a new list or add these genes to an existing list to perform further analyses. Click on the **Save as List** button above the table of results, then choose the column to add to the list. See the :ref:`lists` section for more details on creating and saving lists.
 
 
 .. figure:: images/template_go_term_gene_results.png
@@ -364,3 +364,29 @@ The coordinates must have one of three formats:
 Click on the input examples to view a representative set of coordinates in each format. Click the **Genome coordinates help** text near the top of the form for more detailed information on the input format requirements.
 
 The regions may be extended on either side of the genomic coordinates using the slider or the text field next to it. There is also the option to perform a strand-specific region search using the checkbox at the bottom of the form.
+
+As an example, select **A. mellifera** from the **Select Organism** drop-down, click the box next to **Select Feature Types** to uncheck all of the boxes, then check the box next to **Gene**, and enter the following coordinates into the genomic regions search text field:
+::
+
+     LG5:900000..930000
+
+
+.. figure:: images/regions_search_example.png
+  :width: 696
+  :alt: Example: Genomic regions search on A. mellifera
+  :figclass: align-center
+
+  Example: Genomic regions search on *A. mellifera*
+
+  ..
+
+Then click **Search**. The search results page presents a list of features present within the genomic interval that was entered. In this case, the feature type was limited to Gene. The results may be exported as tab-separated or comma-separated values. If they contain genomic features, there is also the option to saved the results in GFF3 or BED format. The FASTA sequences of the features may also be downloaded.
+
+.. figure:: images/regions_search_example_results.png
+  :width: 696
+  :alt: Example: Genomic regions search results
+  :figclass: align-center
+
+  Example: Genomic regions search results
+
+  ..

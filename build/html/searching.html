@@ -233,7 +233,7 @@
 <div class="legend">
 </div>
 </div>
-<p>The result page shows all the genes having the Gene Ontology term “DNA Binding” in their annotation. When logged in, users may create a new list or add these genes to an existing list to perform further analyses. Click on the <strong>Save as List</strong> button above the table of results, then choose the column to add to the list. See the <a class="reference internal" href="lists.html#lists"><span class="std std-ref">Lists</span></a> section for more details on creating and saving lists.</p>
+<p>The results page shows all the genes having the Gene Ontology term “DNA Binding” in their annotation. When logged in, users may create a new list or add these genes to an existing list to perform further analyses. Click on the <strong>Save as List</strong> button above the table of results, then choose the column to add to the list. See the <a class="reference internal" href="lists.html#lists"><span class="std std-ref">Lists</span></a> section for more details on creating and saving lists.</p>
 <div class="align-center figure" id="id9">
 <a class="reference internal image-reference" href="_images/template_go_term_gene_results.png"><img alt="GO Term --&gt; Gene template results for identifier &quot;GO:0003677&quot;" src="_images/template_go_term_gene_results.png" style="width: 696px;" /></a>
 <p class="caption"><span class="caption-text">Example: Results after searching on <cite>GO:0003677</cite> (identifier for GO term “DNA binding”)</span></p>
@@ -409,6 +409,23 @@
 </ol>
 <p>Click on the input examples to view a representative set of coordinates in each format. Click the <strong>Genome coordinates help</strong> text near the top of the form for more detailed information on the input format requirements.</p>
 <p>The regions may be extended on either side of the genomic coordinates using the slider or the text field next to it. There is also the option to perform a strand-specific region search using the checkbox at the bottom of the form.</p>
+<p>As an example, select <strong>A. mellifera</strong> from the <strong>Select Organism</strong> drop-down, click the box next to <strong>Select Feature Types</strong> to uncheck all of the boxes, then check the box next to <strong>Gene</strong>, and enter the following coordinates into the genomic regions search text field:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LG5</span><span class="p">:</span><span class="mf">900000.</span><span class="o">.</span><span class="mi">930000</span>
+</pre></div>
+</div>
+<div class="align-center figure" id="id27">
+<a class="reference internal image-reference" href="_images/regions_search_example.png"><img alt="Example: Genomic regions search on A. mellifera" src="_images/regions_search_example.png" style="width: 696px;" /></a>
+<p class="caption"><span class="caption-text">Example: Genomic regions search on <em>A. mellifera</em></span></p>
+<div class="legend">
+</div>
+</div>
+<p>Then click <strong>Search</strong>. The search results page presents a list of features present within the genomic interval that was entered. In this case, the feature type was limited to Gene. The results may be exported as tab-separated or comma-separated values. If they contain genomic features, there is also the option to saved the results in GFF3 or BED format. The FASTA sequences of the features may also be downloaded.</p>
+<div class="align-center figure" id="id28">
+<a class="reference internal image-reference" href="_images/regions_search_example_results.png"><img alt="Example: Genomic regions search results" src="_images/regions_search_example_results.png" style="width: 696px;" /></a>
+<p class="caption"><span class="caption-text">Example: Genomic regions search results</span></p>
+<div class="legend">
+</div>
+</div>
 </div>
 </div>
 
