@@ -22,8 +22,8 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = u'HymenopteraMine_v1.4'
-copyright = u'2019, Aditi Tayal, Deepak Unni, Colin Diesh, Chris Elsik, Darren Hagen'
-author = u'Aditi Tayal, Deepak Unni, Colin Diesh, Chris Elsik, Darren Hagen'
+copyright = '2019, Elsik Lab'
+author = u'Chris Elsik, Aditi Tayal, Colin Diesh, Deepak Unni, Marianne Emery, Hung Nguyen, Darren Hagen'
 
 # The short X.Y version
 version = u''
