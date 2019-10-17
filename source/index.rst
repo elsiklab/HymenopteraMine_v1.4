@@ -27,6 +27,7 @@ List of available datasets in HymenopteraMine: http://hymenopteragenome.org/hyme
    searching
    reports
    lists
+   mymine
    api
    data_sources
    blast
